@@ -1,0 +1,19 @@
+{
+  "network": "base-sepolia",
+  "chainId": 84532,
+  "contractAddress": "0xb165c6cfdf139e2bb2e6f3c6c6bc0cb7745a9274",
+  "deployer": "0x345924f66825794e424f9b402756d7015a8dc12e",
+  "timestamp": "2025-10-20T03:44:12.845Z",
+  "blockNumber": "32581782",
+  "configuration": {
+    "initialMembers": [
+      "0x864c0A504da4ef27EE12b8197780e7067133587b",
+      "0x1062A8a3745793c2b671e4600EF33F3c0d6c29ef"
+    ],
+    "approvalThreshold": "2",
+    "totalMembers": 3,
+    "initialFunding": "0 ETH"
+  },
+  "explorer": "https://sepolia.basescan.org/address/0xb165c6cfdf139e2bb2e6f3c6c6bc0cb7745a9274",
+  "verifyCommand": "npx hardhat verify --network base-sepolia 0xb165c6cfdf139e2bb2e6f3c6c6bc0cb7745a9274 '[\"0x864c0A504da4ef27EE12b8197780e7067133587b\",\"0x1062A8a3745793c2b671e4600EF33F3c0d6c29ef\"]' 2"
+}
